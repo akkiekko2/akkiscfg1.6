@@ -1,0 +1,19 @@
+bind "rightarrow" "flash"
+bind "downarrow" "hegren"
+bind "leftarrow" "sgren"
+bind "MWHEELDOWN" "+jump"
+cl_cmdrate 101
+cl_updaterate 101
+ex_interp 0.01
+rate 25000
+alias "ng" "ngon"
+alias "ngon" "net_graph 1; alias ng ngoff"
+alias "ngoff" "net_graph 0; alias ng ngon"
+bind "f8" ng
+alias "+jumpthrow" "+jump; -attack"
+alias "-jumpthrow" "-jump"
+bind "alt" "+jumpthrow"
+cl_crosshair_size "small"
+sensitivity "2.5"
+bind "pgdn" "ak47; m4a1"
+bind "pgup" "vesthelm"
